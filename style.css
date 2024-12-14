@@ -1,0 +1,298 @@
+*{
+     padding: 0%;
+     margin: 0%;
+     box-sizing: border-box;
+}
+html,body{
+     height: 100%;
+     width: 100%;
+}
+.main{
+     width: 100vw;
+     height: 100vh;
+}
+.main>.container {
+     width: 100vw;
+     height: 100vh;
+     background: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJ1c2luZXNzJTIwY29uc3VsdGFudHxlbnwwfHwwfHx8MA%3D%3D);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     filter: blur(2px);
+     position: absolute;
+}
+.main>div{
+     position: relative;
+     top: 0;
+     left: 0;
+}
+.main>div>nav {
+    
+    flex-basis: 100vw 10vh ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 45px;
+    color: white;
+}
+div >nav >div >h1{
+     font-size: 1.5rem;
+     font-weight: 900;
+     font-family: Voyage;
+     text-shadow: 4px 4px 2px black;
+
+}
+ div >nav > .link {
+
+    flex-basis: 60vw ;
+
+}
+div>nav > .link >a {
+     font-size: 1.2rem;
+     font-weight: 600;
+     text-decoration: none;
+     padding: 18px;
+     color: white;
+     text-shadow: 3px 3px  2px black;
+
+}
+div>nav > .link >a:hover{
+     text-decoration: underline;
+}
+div >nav > div{
+     width: 15%;
+}
+div> nav > div > div {
+     font-size: 1.1rem;
+     display: flex;
+     /* justify-content:space-between; */
+     align-items: center;
+     gap: 10%;   
+     text-shadow: 3px 3px  2px black;
+
+}
+div > .content {
+    flex-basis: 100vw 90vh ;
+
+}
+div > .content > div {
+     margin: 10rem 21.5rem;
+     color: white;
+     
+}
+div > .content > div > h1{
+     font-size:3.8rem;
+     font-weight: 900;
+     line-height: .9;
+     text-shadow: 3px 3px  2px black;
+}
+div > .content > div > p {
+     line-height: 4;
+     text-shadow: 3px 3px  2px black;
+
+}
+div > .content > div > button{
+     padding: 12px 28px;
+     background-color: #0476BE;
+     border: none;
+     color: white;
+     font-size: 0.9rem;
+     font-weight: 600;
+     margin: 4px 0px;
+}
+div > .content > div > button:hover{
+     color: #0476BE;
+     background-color: white;
+}
+.page1{
+     width: 100vw;
+     height: 100vh;
+     /* padding-top: 4%;
+     padding-left: 4%; */
+     padding: 70px 148px 0px 160px;
+     position: absolute;
+
+}
+.page1 > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+
+} 
+.page1 > div > div {
+     flex-basis: 30vw;
+}
+.page1 > div > div >img{
+    width: 22vw;
+     
+}
+.page1 > div > div >.content{
+     width: 18vw;
+     display: flex;
+     justify-content: space-around;
+     border: 2px solid white;
+     align-items: center;
+     position:relative;
+     top: -15%;
+     left: 7%;
+     background-color: white;
+     box-shadow: -2px -2px 15px;
+     
+}
+.page1 > div > div >.content >h1{
+     font-size: 1.5rem;
+}
+.page1 > div > div >.content >img{
+     width: 2vw;
+     height: 6vh;
+     object-fit: cover;
+}
+.page2{
+     width: 100vw;
+     height: 100vh;
+     margin-top: 405px;
+     padding: 70px 148px 0px 160px;
+
+}
+.page2 > div {
+     display: flex;
+     justify-content: space-between;
+     gap: 5%;
+     align-items: center;
+     
+}
+.page2 > div > div >img{
+     width: 30vw;
+     flex-basis: 95px;
+     border-radius: 50% 50% ;
+     object-fit: cover;
+}
+.page2 > div > div >h1 {
+     font-size: 80px;
+}
+.page2 > div > div >div {
+     display: flex;
+     justify-content:left;
+     align-items: center;
+     gap: 2%;
+     padding-bottom: 25px;
+}
+.page2 > div > div >div>img{
+     width:2vw;
+      
+ }
+.page2 > div > div >div>h5{
+     font-size: 40px;
+     font-weight: 500;
+ }
+ .page2 > div > div >div> div {
+     padding-top: 55px;
+     text-align: center;
+ }
+ .page2 > div >div> div >button{
+     padding: 12px 28px;
+     background-color: #0476BE;
+     border: none;
+     color: white;
+     font-size: 0.9rem;
+     font-weight: 600;
+     margin: 4px 0px;
+}
+.page2 > div > div >div>button:hover{
+     color: #0476BE;
+     border: 2px solid #0476BE;
+     background-color: white;
+}
+.page2 > div > div >div> h5{
+     font-size: 18px;
+}
+.page3{
+     width: 100vw;
+     height: 40vh;
+}
+.page3 > div {
+     width: 100vw;
+     height: 50vh;
+     background: url(https://plus.unsplash.com/premium_photo-1679547202671-f9dbbf466db4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29uZmVyZW5jZXxlbnwwfHwwfHx8MA%3D%3D);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 0.9;
+     text-align: center;
+     object-fit: cover;
+}
+.page3 > div >h1{
+     padding-top: 9rem;
+     font-size: 35px;
+     font-weight: 800;
+     color: white;
+     margin: 13px;
+
+}
+.page3> div >button{
+     padding: 12px 28px;
+     background-color: #0476BE;
+     border: none;
+     color: white;
+     font-size: 0.9rem;
+     font-weight: 600;
+     margin: 4px 0px;
+}
+.page2 >div>button:hover{
+     color: #0476BE;
+     background-color: white;
+}
+footer{
+    
+     width: 100vw;
+     height: 90vh;
+     margin-top:8rem;
+     padding:5rem 9rem;
+     background: url(https://images.unsplash.com/photo-1571202722900-a69933c84b44?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJ1bGRpbmclMjBkYXJrfGVufDB8fDB8fHww);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 1;
+     object-fit: cover;
+
+}
+footer > div {
+     width: 80vw;
+     height: 70vh;
+     display: flex;
+     gap: 2%;
+     border: 10px solid white;
+}
+footer > div > div >img{
+     width: 35vw;
+     height: 67.2vh;
+     object-fit: cover;
+}
+footer >div>.content {
+     margin: 15vh 2vw;
+     line-height: 1.5;
+     color: white;
+     
+} 
+footer > div > .content >p{
+    font-size: 15px;
+    font-weight: 600;
+}
+footer > div > .content >h1{
+     font-size: 55px;
+     font-weight: 900;
+}
+footer > div > .content > p{
+    font-size: 17px;
+    line-height: 1.5;
+  
+}
+footer > div > .content > button{
+     padding: 12px 28px;
+     background-color: #0476BE;
+     border: none;
+     color: white;
+     font-size: 0.9rem;
+     font-weight: 600;
+     margin:4vh 0vw;
+}
